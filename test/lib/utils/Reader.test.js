@@ -1,9 +1,9 @@
-const Reader = require( "../../../lib/utils/Reader.js" )
+const Reader = require( "../../../lib/utils/Reader.js" );
 
 describe("Puebas a Reader", () => {
 
-    test('Leer el archivo Json', () => { 
-        const explorers = Reader.readJsonFile("explorers.json")
-        expect(explorers.length).toBe(15)
-     })
+    test("Leer el archivo Json", () => { 
+        const explorers = Reader.readJsonFile("explorers.json");
+        expect(explorers.length).toBe(15);
+    });
 });
