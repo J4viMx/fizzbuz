@@ -22,7 +22,7 @@ describe("Puebas Explorer Service", () => {
     test("Comprobar  Score 15", () => {
         const explorer15= {name: "Explorer15", score: 15};
         const explorerTest = FizzbuzzService.applyValidationInExplorer(explorer15);
-        expect(explorerTest.trick).toBe("FIZZBUZZ");
+        expect(explorerTest.trick).toBe("FIZZBUZ");
     });
 
       
